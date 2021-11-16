@@ -11,7 +11,7 @@ const RepoCard = ({repoName, owner, repoPrivate}) => {
             <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" />
             <h4>{repoName}</h4>
             <h4>Private: {repoPrivate? "Private": "Public"}</h4>
-            <a href={repoLink} target="_blank">See more about this Repo</a>
+            <a href={repoLink} target="_blank" rel="noreferrer">See more about this Repo</a>
             
 
             
